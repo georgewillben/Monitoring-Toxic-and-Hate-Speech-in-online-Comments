@@ -15,7 +15,7 @@ Google's Conversation AI team is working on tools to help improve online convers
 The repository contains two folders: 
 
 - The data folder is divided in three subdirectories. The Raw Data folder contains the initial csv files provided for the Kaggle competition. Each subsequent folder contain csv files created at the different steps of processing the data.
-- Models contains the saved models as well as tokenizer needed to be able to reproduce the data processing with future comments.
+- The Models folder contains the saved models as well as tokenizer needed to be able to reproduce the data processing with future comments.
 
 
 The repository contains six Jupyter Notebooks going from number one to six. The notebooks have to be run in the order of the numbers in order to generate the desired files and model. The conclusion notebook can accept any text and return the model’s classification results for he given text. 
